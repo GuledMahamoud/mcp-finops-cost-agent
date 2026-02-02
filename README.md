@@ -38,3 +38,17 @@ This aligns with core FinOps domains defined by the FinOps Foundation:
 ---
 
 ## Architecture overview
+Cloud Billing Export (CSV)
+        │
+        ▼
+Billing Loader & Normalizer
+        │
+        ▼
+Deterministic FinOps Tool Layer
+        │
+        ▼
+MCP Server (FastMCP)
+        │
+        ▼
+AI Assistant
+(explains results, does not compute)
