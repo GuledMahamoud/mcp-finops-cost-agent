@@ -122,13 +122,14 @@ The loader can be extended to map:
 
 ## Run locally
 
-`bash
+```
+bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
-python server.py`
-
+python server.py
+```
 ---
 
 ## Why MCP (Model Context Protocol)
