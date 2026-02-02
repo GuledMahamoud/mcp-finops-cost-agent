@@ -127,4 +127,47 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
-python server.py
+python server.py```
+
+---
+
+## Why MCP (Model Context Protocol)
+
+MCP provides:
+
+- standardized tool interfaces  
+- strict input/output schemas  
+- explicit permissions  
+- deterministic, auditable execution  
+
+These properties are critical for finance and governance-adjacent systems like FinOps.
+
+This project uses MCP to demonstrate how FinOps analysis can be safely integrated into AI-assisted workflows, where:
+- tools compute facts,
+- access is governed,
+- and AI is limited to explanation and interpretation.
+
+---
+
+## Intended Audience
+
+- FinOps practitioners and engineers  
+- Cloud platform teams  
+- Engineering managers  
+- Recruiters evaluating SWE → FinOps transitions  
+
+---
+
+## Possible Extensions
+
+- Replace CSV ingestion with live cloud billing APIs  
+- Add commitment recommendations (Reserved Instances / Savings Plans)  
+- Integrate utilization metrics (CPU, memory) to distinguish cost vs usage  
+- Export results to dashboards, reports, or ticketing systems  
+
+---
+
+## Disclaimer
+
+This project is for demonstration and learning purposes only.  
+It is not intended to replace production FinOps tooling.
