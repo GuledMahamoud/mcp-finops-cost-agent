@@ -17,7 +17,7 @@ This project shows a different approach:
 
 > **FinOps as callable, governed tools that an AI assistant can use to explain cloud spend.**
 
-The AI does not “guess” costs — it calls deterministic tools via MCP and explains the results.
+Rather than AI “guessing” costs — it calls deterministic tools via MCP and explains the results.
 
 ---
 
