@@ -144,15 +144,6 @@ This project uses MCP to demonstrate how FinOps analysis can be safely integrate
 
 ---
 
-## Intended Audience
-
-- FinOps practitioners and engineers  
-- Cloud platform teams  
-- Engineering managers  
-- Recruiters evaluating SWE → FinOps transitions  
-
----
-
 ## Possible Extensions
 
 - Replace CSV ingestion with live cloud billing APIs  
