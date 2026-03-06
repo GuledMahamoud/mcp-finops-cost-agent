@@ -32,9 +32,6 @@ Rather than AI “guessing” costs — it calls deterministic tools via MCP and
 | Cost monitoring | `anomaly_check` |
 | Accountability | explicit filters + attribution |
 
-This aligns with core FinOps domains defined by the FinOps Foundation:
-**Inform → Optimize → Operate**.
-
 ---
 
 ## Architecture overview
