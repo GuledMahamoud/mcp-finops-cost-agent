@@ -37,9 +37,6 @@ Rather than AI “guessing” costs — it calls deterministic tools via MCP and
 ## Architecture overview
 Cloud Billing Export (CSV) ---> Billing Loader & Normalizer ---> Deterministic FinOps Tool Layer ---> MCP Server (FastMCP) ---> AI Assistant (explains results, does not compute)
 
-
-Key principle: **tools compute, the model narrates**.
-
 ---
 
 ## Tools exposed via MCP
