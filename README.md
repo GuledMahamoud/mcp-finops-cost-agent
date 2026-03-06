@@ -51,8 +51,6 @@ Summarizes cloud spend for a period.
 - top environment/team tags
 - tag coverage (% of spend allocated)
 
-**FinOps relevance:** cost visibility + allocation maturity.
-
 ---
 
 ### 2. `cost_diff`
@@ -64,8 +62,6 @@ Explains *what changed* between two time periods.
 - environment tag
 - team tag
 
-**FinOps relevance:** variance analysis and driver identification.
-
 ---
 
 ### 3. `anomaly_check`
@@ -75,8 +71,6 @@ Detects daily spend anomalies using a rolling z-score.
 - flagged dates
 - spend on anomaly day
 - top contributing services and accounts
-
-**FinOps relevance:** operational monitoring and early detection.
 
 ---
 
